@@ -2,7 +2,7 @@
 public class EncryptionTester {
 
     public static void main(String[] args) throws Exception {
-        String encryptedFilePath = "src/encrypted.txt";
+        String encryptedFilePath = "src/message.txt";
         String decryptedFilePath = "src/decrypted.txt";
         String inputFilePath = "src/encryptMe.txt";
         String outputFilePath = "src/newEncrypted.txt";
