@@ -6,13 +6,13 @@
 
 ####    This lab will incorporate file IO, encryption, decryption, and using GitHub!
 
-Included in `src` is two files `encrypted.txt` && `encryptMe.txt` the goal 
+Included in `src` is two files `message.txt` && `encryptMe.txt` the goal 
 is to decrypt the former and encrypt the latter text file 
 and push your code/files  to canvas. 
 
 The file is encrypted with a **caesar cipher**, please Google what 
 this is if you do not understand how it is working.
-`encrypted.txt` **is shifted >1 && <10 times. Encrypt** `encryptMe.txt`
+`message.txt` **is encrypted with a shift value of 5. Encrypt** `encryptMe.txt`
 **With the same amount of shift**
 
 There is already a scaffold to help you start coding, but please feel free
@@ -71,10 +71,11 @@ Now that you have cloned this repository onto your local machine and created a n
 ### Good luck!
 
 ## Tips:
-- You made want to comment out the method calls to encrypt and decrypt as you fill out those functions
+- You may want to comment out the method calls to encrypt and decrypt as you fill out those functions
 - Decrypting is the same an encrypting, but backwards
 - You will need to do some type casting
-- Ceaser's cipher should only apply to letters, uppercase and lowercase. Not special characters or spaces
+- Ceaser's cipher should only apply to letters, uppercase and lowercase. Not special characters or spaces (think about how to ignore anything that is not a letter. Or, hint, how to only encrypt/decrypt letters).
+- Remember that characters have associated ASCII values. You may look up an ASCII table for reference, however, beware that you must only use syntax from the approved resources. 
 - Remember that the ONLY approved sources are your lecture and lab notes, Zybooks, and the official Java documentation. If you use official documentation, include a link to the exact page where you found the syntax in a comment. 
 
 # References
